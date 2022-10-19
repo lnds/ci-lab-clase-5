@@ -27,7 +27,7 @@ public class App {
     return "es un triangulo escaleno";
   }
   
-  static bool esPitagorico(int a, int b, int c) {
+  static boolean esPitagorico(int a, int b, int c) {
     return c*c == a*a + b*b;
   }
   
